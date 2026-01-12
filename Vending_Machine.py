@@ -113,7 +113,7 @@ while True:
     paid = False
     while paid == False:
         try:
-            money = float(input("Insert money: $"))
+            money = float(input("Insert money: AED"))
             if money < price:
                 need = price - money
                 print(f"Not enough! Need AED{need:.2f} more.")
@@ -190,6 +190,7 @@ while True:
         engine.say("Thank you for your purchase!Goodbye!")
         engine.runAndWait()
         break
+
 
 
 
